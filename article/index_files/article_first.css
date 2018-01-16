@@ -1,0 +1,382 @@
+@import 'basic.css';
+html, body {
+    overflow-x: hidden;
+}
+
+#gohome {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    width: 15vw;
+    height: auto;
+
+}
+
+.title-wrapper {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vw;
+}
+
+.title {
+    position: relative;
+    top: 62%;
+    left: 8.75%;
+}
+.title>h1 {
+    font-size: 8.125vw;
+    color: #fcfcfc;
+    font-weight: bold;
+    opacity: 0.82;
+}
+.title>h3 {
+    margin: 0;
+    font-size: 4.5vw;
+    color: #fcfcfc;
+    opacity: 0.82;
+}
+.main-wrapper {
+    float:none;
+    margin: 0 auto;
+    margin-top: 5.3125vw;
+}
+.main-wrapper>*, .paragraph>* {
+    margin: 8vw 0;
+}
+#tooltip-main1,#tooltip-main2  {
+margin-top: 8vw;
+}
+.info {
+    text-align: left;
+
+}
+.info>h3 {
+    margin:0;
+    font-size: 4vw;
+    color: #8e8e8e;
+}
+
+#share-wrapper {
+    height: 7.421875vw;
+    text-align: right;
+}
+#down-share-wrapper {
+    height: 7.421875vw;
+    text-align: center;
+    float: none;
+    margin: 3vw auto;
+}
+
+.share-icon{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 6vw;
+    width:auto;
+    margin-right: 3vw;
+}
+
+p {
+    margin: 0 auto;
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+    font-size: 4.5vw;
+    line-height: 8.5vw;
+    color : #3a3a3a;
+    text-align: justify; 
+
+}
+p>a {
+    color : #143b93;
+    text-decoration:underline;
+
+}
+.network-result {
+    float: none;
+    margin: 3vw auto;
+    text-align:center
+}
+.network-result>img {
+    width: 100%;
+
+}
+#description-dropdown {
+    cursor: pointer;
+
+}
+.description-wrapper {
+    border-bottom: 1px #143b93 solid;
+    margin-bottom: 24vw;
+}
+.description-title-wrapper {
+    text-align:left;
+    margin: 0 auto;
+    padding-top: 1vw;
+}
+.description-title-wrapper>h3 {
+    color: #143b93;
+    margin:0;
+    margin-bottom:1.5vw;
+    font-weight: bold;
+    font-size: 5.625vw;
+    line-height: 11vw;
+}
+
+#description {
+    display:none;
+    font-family: 'Spoqa Han Sans';
+    margin: 0 auto;
+    margin-top: 3.12vw;
+    text-align: left;
+}
+
+.paragraph {
+    background-color : #f6f6f6;
+    padding:6vw;
+    margin: 6vw auto;
+}
+.paragraph>p {
+    font-size: 4vw;
+    line-height: 8vw;
+}
+.d-title {
+    color: #143b93;
+    font-weight: bold;
+}
+
+
+#tooltip-wrapper>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tooltip {
+    border-top: solid 1px #979797;
+    border-bottom: solid 1px #979797;
+    margin: auto 0;
+}
+
+.tooltip-title {
+    color: #143b93;
+    font-weight: bold;
+
+}
+.tooltip-content {
+    color: #8e8e8e;
+
+}
+.tooltip-content b {
+    color: #143b93;
+
+}
+#tooltip-content2-mobile p {
+    color: #8e8e8e;
+}
+
+#tooltip-content2{
+    display:none;
+}
+#tooltip-content2-mobile {
+    display:inline-block;
+}
+#share-wrapper {
+    position:relative;
+    bottom:0;
+    right:0;
+}
+
+.row>* {
+    padding: 0;
+}
+
+#video-title {
+margin-top: 10.625vw;
+}
+
+.subtitle-wrapper>h2 {
+    margin:0;
+    font-size: 5.625vw;
+    color: #3a3a3a;
+    font-weight: bold;
+    line-height: 11vw;
+}
+.subtitle-wrapper>h3 {
+    text-align: center;
+    color: #6b6b6b;
+    font-size: 4vw;
+
+}
+
+video {
+    border: 2px solid black;
+
+}
+
+#parallax-wrapper {
+    margin-top: 4vw;
+    width: 100vw;
+    background-color: #f7f7f7;
+}
+.bg {
+    background-image: url('../img/parallax_fb.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width:100%;
+    height:80vw;
+    text-align: center;
+}
+.bg h1 {
+    font-size: 5.625vw;
+    font-weight: bold;
+    color: #fcfcfc;
+
+}
+#parallax-centerer {
+    height: 80vw;
+}
+
+.video-wrapper {
+    width:100vw;
+    height: 56.25vw;
+
+}
+
+iframe {
+    width: 100%; 
+    height:100%;
+}
+
+.a-contents-title {
+    color: #a2a2a2;
+    font-size: 4.6875vw;
+    font-weight: bold;
+    opacity: 0.7;
+
+}
+.a-contents {
+    background-color: #f7f7f7;
+    width: 100vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+
+}
+.a-contents-title-wrapper, .a-content-card {
+    float: none;
+    margin: 1.40625vw auto;
+}
+.a-content-title {
+    text-align: left;
+    font-weight: 300;
+    color: #3a3a3a;
+    opacity: 0.8;
+    font-size: 3.5vw;
+}
+.a-content-content {
+    text-align: left;
+    color: #3a3a3a;
+    opacity: 0.7;
+    font-size: 2.5vw;
+}
+.a-content-img {
+    width: 100%;
+    height: auto;
+}
+
+.credit {
+    text-align: center;
+    font-size: 3.5vw;
+    line-height:7.5vw;
+    color : #a2a2a2;
+
+}
+
+@media (min-width: 768px) {
+#gohome {
+    left: 2%;
+    width: 9vw;
+}
+.share-icon{
+    height: 3.9vw;
+    margin-right: 0.4vw;
+}
+    .title-wrapper {
+        height: 40vw;
+    }
+    .title>h1 {
+        font-size: 5.625vw;
+    }
+    .title>h3 {
+        font-size: 2.5vw;
+    }
+    .info>h3 {
+        font-size: 1.3vw;
+    }
+    p {
+        font-size: 1.3vw;
+        line-height: 2.6vw;
+    }
+    .subtitle-wrapper>h2 {
+        font-size: 1.6vw;
+        line-height: 3vw;
+    }
+    .subtitle-wrapper>h3 {
+        font-size: 1.3vw;
+    }
+    .main-wrapper>*, .paragraph>* {
+        margin: 2vw 0;
+    }
+    #tooltip-main1, #tooltip-main2 {
+        margin-top: 0;
+    }
+    .bg h1 {
+        font-size: 3.90625vw;
+    }
+    .bg {
+        height:40vw;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    #parallax-centerer {
+        height: 40vw;
+    }
+    .a-contents {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .a-contents-title {
+        font-size: 2vw;
+        margin-bottom: 2.8125vw;
+    }
+    .a-content-card {
+        margin: 1.40625vw auto;
+    }
+    .a-content-title {
+        font-size: 1.6vw;
+    }
+    .a-content-content {
+        font-size: 1.3vw;
+    }
+.description-title-wrapper>h3 {
+    font-size: 1.6vw;
+    line-height: 3vw;
+}
+.paragraph>p {
+        font-size: 1.1vw;
+        line-height: 2.2vw;
+}
+.paragraph {
+    padding:1.3vw;
+    margin: 2vw auto;
+}
+.description-wrapper {
+    margin-bottom: 6vw;
+}
+.credit {
+    text-align: center;
+        font-size: 1vw;
+        line-height: 2vw;
+
+}
+
+}
