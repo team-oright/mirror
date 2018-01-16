@@ -1,0 +1,309 @@
+
+
+#start-page-wrapper {
+    position: absolute;
+    background-color: #181A22;
+    opacity: 0.85;
+    z-index:11;
+}
+
+#end-page-wrapper {
+    position: absolute;
+    background-color: white;
+    z-index:10;
+}
+
+#p01_home {
+    position: absolute;
+    top: -187%;
+    left: -128%;
+    width: 8.83vw;
+    height: auto;
+    z-index: 12;
+}
+#p01_filter {
+}
+
+#p01_filter_text {
+    color: #bfbbb4;
+    opacity: 0.8;
+    z-index:12;
+    padding: 33% 0;
+    font-family: 'Spoqa Han Sans';
+    font-size: 1.40625vw;
+}
+
+#godown {
+    top: -60%;
+    width: 5vw;
+    height: auto;
+    opacity: 0.5;
+} 
+
+.share-icon {
+    top: 3vh;
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    z-index: 13;
+    opacity: 0.8
+}
+#up-fb-share {
+        right: 107vw;
+    }
+#up-tw-share {
+        right: 103vw;
+    }
+#down-fb-share {
+    right: -125%;
+    top: -135%;
+}
+#down-tw-share {
+    right: -135%;
+    top: -135%;
+}
+
+img {
+    position: absolute;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centering {
+    top: -100%;
+    bottom: -100%;
+    left: -100%;
+    right: -100%;
+    margin: auto;
+}
+
+#p01 {
+    position: relative;
+
+}
+#loading {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 20;
+}
+
+.page-div {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.texture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 100%;
+    z-index: 8;
+    opacity: 0.1;
+}
+
+.full-pg {
+    height:100%;
+    width: auto;
+}
+
+.bg {
+    z-index:1;
+}
+
+.main {
+    z-index:2;
+}
+.z3 {
+    z-index:3;
+}
+.z4 {
+    z-index:4;
+}
+.z5 {
+    z-index:5;
+}
+.z6 {
+    z-index:6;
+}
+
+.text {
+    height: 100%;
+    width: auto;
+}
+
+.text-layer {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    text-align:center;
+}
+
+.text-layer>h1 {
+    top:0;
+    font-family: 'Spoqa Han Sans';
+    font-weight:100;
+    color: white;
+    line-height: 2.5vw;
+    font-size: 2vw;
+    text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+}
+/*
+#p02-text {
+    position:absolute;
+    left: 55.73%;
+}
+#p03-text {
+    position:absolute;
+    left: 55.73%;
+}
+#p04-text {
+    position:absolute;
+    left: 55.98%;
+}
+#p05-text {
+    position:absolute;
+    left: 42.76%;
+}
+#p06-text {
+    position:absolute;
+    left: 55.98%;
+}
+#p06-2-text {
+    position:absolute;
+    left: 55.98%;
+}
+#p07-text {
+    position:absolute;
+    left: 50.26%;
+}
+#p08-text {
+    position:absolute;
+    left: 55.98%;
+}
+#p09-text {
+    position:absolute;
+    left: 17.71%;
+}
+#p09-2-text {
+    padding-top:33%;
+}
+#p10-text {
+    position:absolute;
+    left:56.20%;
+}
+#p11-text {
+    position:absolute;
+    left:56.51%;
+}
+#p12-text {
+    position:absolute;
+    left: 17.71%;
+}
+#p13-text {
+    position:absolute;
+    left:56.51%;
+}
+#p15-text {
+    padding-top: 6.25%;
+}
+*/
+.fit>a {
+    display:none;
+}
+
+.godown-button {
+    z-index: 11; 
+    position: absolute; 
+    right: 5vw;
+    bottom: 5vh; 
+    margin: auto;
+    width: 2vw;
+    height: auto;
+}
+
+#last-wrapper {
+    width:100%;
+    height:100%;
+    background-color: #1c1c24;
+    position:absolute; 
+
+}
+#another-contents-wrapper {
+    width: 80vw;
+    height: 52vh;
+    position:absolute; 
+    left:-100%;
+    right:-100%;
+    top:-100%;
+    bottom:-100%;
+    text-align: left;
+}
+
+.content-wrapper {
+    width: 61.796875vw; 
+    margin: 5.90vh auto;
+
+}
+
+.text-wrapper {
+    width: 36.25vw;
+    margin-right: 10vw;
+    text-align:left;
+}
+
+.title {
+    margin-bottom: 2.22vh;
+    width: 36.25vw;
+    font-size:1.875vw;
+}
+.go-button {
+    width: 10.3125vw;
+    height: auto;
+}
+
+#go-to-newsfeed {
+    z-index: 10;
+}
+
+#end-img-wrapper {
+    height:15vh;
+}
+
+#end-img {
+    position:absolute;
+    left: -110%;
+    top:-180%;
+    width: 20.859375vw;
+    height: auto;
+}
+
+/* page 01 */
+
+#p01_outside {
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    height:auto;
+    z-index:1;
+}
+#p01_bus {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    z-index: 2;
+}
+
+
+

@@ -1,0 +1,271 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+/* Color palette */
+
+:root {
+	--sun-yellow: #ffce31;
+	--warm-grey: #a2a2a2;
+	--warm-grey-two: #8e8e8e;
+	--white: #d8d8d8;
+	--white-two: #fcfcfc;
+	--white-four: #fbfbfb;
+	--black: #212121;
+	--black-two: #3a3a3a;
+	--light-navy: #143b93;
+	--very-light-blue: #dfe9ff;
+	--aqua-marine: #50e3c2;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.share-icon {
+    cursor: pointer;
+}
+
+.exit {
+    cursor: pointer;
+    position: fixed;
+    top: 3vh;
+    right: 3vw;
+    width: 3vw;
+    height: auto;
+    z-index: 2;
+}
+
+@font-face {
+    font-family: THEJung110;
+    src: url('../fonts/THEJung110.woff') format('woff');
+    src: url('../fonts/THEJung110.woff2') format('woff2');
+}
+
+.black {
+    color: var(--black);
+}
+
+.black-two {
+    color: var(--black-two);
+}
+
+.white-four {
+    color: var(--white-four);
+}
+
+
+h1 {
+    font-weight: lighter;
+    margin: 0;
+    font-family: 'Spoqa Han Sans';
+    font-size: 3.9vh;
+    line-height: 1.6;
+    color: var(--black);
+}
+
+h2 {
+    font-family: 'Spoqa Han Sans';
+    font-size: 2.86vh;
+    font-weight: 100;
+    line-height: 4vh;
+    color: var(--white-four);
+}
+
+h3 {
+	font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+	font-size: 2.6vh;
+	line-height: 1.6;
+	color: var(--black-two);
+}
+
+h4 {
+    margin-top: 2.7vh;
+    margin-bottom: 2.875vh;
+	font-family: 'Spoqa Han Sans';
+	font-size: 1.05vw;
+	font-weight: 100;
+	line-height: 1.33;
+	color: var(--warm-grey);
+}
+
+a {
+    cursor: pointer;
+}
+
+.btn-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Spoqa Han Sans';
+    font-size: 2.08vh;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #fafafa;
+}
+
+.btn-text-center {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.btn {
+    width: 14.0265vw;
+    height: 8.33vh;
+    text-align: center;
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.btn-navy {
+    background: var(--light-navy);
+    z-index: 20;
+}
+
+.btn-black {
+    background: var(--black-two);
+    float: right;
+    z-index: 20;
+}
+
+
+/* container */
+
+body {
+    margin: 0;
+
+}
+.container {
+    margin-top:8.33vh;
+
+}
+
+/* nav-bar */
+.navbar {
+    position:fixed;
+    top:0;
+    left:0;
+    object-fit: contain;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 var(--white);
+    display:block;
+    width: 100%;
+    height: 8.33vh;
+    z-index:9;
+}
+#p-navbar {
+    background-color: #21222a;
+    box-shadow: 0 1px 1px 0 rgba(9,9,9,0.38)
+}
+
+.nav {
+    background-color: white;
+    text-align:center;
+    color: #f2f2f2;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#p-nav {
+    background-color: #21222a;
+    text-align:center;
+    color: var(--warm-grey);
+
+}
+
+.nav-item {
+    display:inline;
+    vertical-align:middle;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-item-active {
+    background-color: var(--white-two);
+    border-top: 3px var(--warm-grey-two) solid;
+}
+
+.p-nav-item-active {
+    background-color: #191b23;
+    border-top: 3px var(--warm-grey) solid;
+}
+
+.nav-item-analysis {
+    width: 18.75vw;
+}
+
+.nav-item-storytelling {
+    width: 25vw;
+}
+.nav-item-article {
+    width: 28.125vw;
+}
+.nav-logo {
+    float: right;
+    margin-right: 3.125vw;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.inline-block-centerer{
+    display:inline-block;
+    vertical-align: middle;
+    height:100%;
+}
+
+.vertical-center {
+    display:inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#br-logo {
+    position: fixed; 
+    bottom: 2.08vh;
+    left: 2.5vw;
+    width: 12.5vw;
+    height: auto;
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+.animate-flicker {
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite;
+}
+
+.animate-updown {
+    -webkit-animation: mover 0.5s infinite  alternate;
+    animation: mover 0.5s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(20px); }
+}
