@@ -1,0 +1,161 @@
+@import 'basic.css';
+
+#home {
+    text-align:center;
+
+}
+
+#analysis-test-wrapper {
+    display:inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mynews-yournews {
+    width: 15.625vw;
+    height: auto;
+    margin-right: 10.9375vw;
+}
+
+.matchingtest-button {
+    width: 23.475vw;
+    height: auto;
+    -webkit-transition: all 0.2s; /* Safari */
+    transition: all 0.2s;
+}
+
+.matchingtest-button:hover {
+    box-shadow: 16px 16px var(--light-navy);
+    -moz-transform: translate(-16px, -16px);
+    -ms-transform: translate(-16px, -16px);
+    -o-transform: translate(-16px, -16px);
+    -webkit-transform: translate(-16px, -16px);
+    transform: translate(-16px, -16px);
+}
+
+.analysis-test-description {
+    margin: 0 auto;
+    width:50vw;
+    margin-top: 2vh;
+    text-align: left;
+}
+
+.dropdown-wrapper {
+    height: 6.25vh;
+    border-bottom: 1px var(--white) solid;
+}
+
+.dropdown-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dropdown-description {
+    margin: 2vh 0;
+}
+
+.dropdown-button {
+    width: 1.5625vw;
+    height: auto;
+}
+
+.description-wrapper {
+    display: none;
+    margin-top: 0;
+    border-bottom: 1px var(--white) solid;
+}
+
+#secret-tab-notice-wrapper {
+    position: fixed;
+    bottom:11vh;
+    left:0;
+    width: 100%;
+    text-align:center;
+}
+
+#secret-tab-notice-wrapper>h1 {
+    font-size: 1.37vw;
+    color: #6b6b6b;
+}
+
+/* */
+
+.analysis-start-wrapper {
+    display: none;
+    background-color: var(--sun-yellow);
+    width:100%;
+    height:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    text-align: center;
+}
+
+#start-description-wrapper {
+    text-align: left;
+    height: 40%
+}
+
+.start-description {
+    margin: 0 3.125vw;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2.0;
+}
+
+#install-button {
+    display: inline;
+    margin-left: 9.375vw;
+}
+
+#button-continue {
+    width: 14.0625vw;
+    height: auto;
+}
+
+#line {
+    border-top: 1px solid var(--black-two);
+    width: 10.15625vw;
+    height:3.398vh;
+    margin: 0 auto;
+    opacity:0.57
+}
+#data-collection-notice-wrapper>h3 {
+    font-size:1.2vw;
+    opacity: 0.57
+}
+
+/* Progress */
+
+#progress {
+    background-color: var(--light-navy);
+    text-align: center;
+}
+
+#progress-centerer {
+    height: 85%
+}
+
+#progress-notice {
+    width: 53.125vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#progress-bar {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.progress-circle {
+    width: 3.125vw;
+    height: auto;
+    margin: 0 0.78125vw;
+}
